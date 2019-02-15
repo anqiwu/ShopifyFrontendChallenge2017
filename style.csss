@@ -1,0 +1,77 @@
+body {
+    background-color: #000639;
+}
+
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    color: #FFFFFF;
+    display: block;
+}
+
+#main {
+    margin-top: 3em;
+}
+
+#ddlType {
+    display: inline;
+}
+
+
+#errorMessage {
+    color: #C23628;
+}
+
+.btn {
+    background-color: #5c6ac4;
+    font-weight: bold;
+    border: #5c6ac4;
+    color: #FFFFFF;
+}
+
+.secondHeader {
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+
+.unsubscribe, .unsubscribe:visited {
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.unsubscribe:hover {
+    color: #7B7B7B;
+}
+
+.footer {
+    margin-top: 5em;
+}
+
+.underscore {
+    color: #7AB55C;
+    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.removePadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#btnSubmit {
+    cursor: pointer;
+}
+
+#btnSubmit:hover {
+    background-color: #3f4eae;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .footer {
+        margin-top: 10em !important;
+    }
+}
